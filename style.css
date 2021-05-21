@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* html{
+    width: 100%;
+}
+body {
+    width: 100%;
+    
+} */
+#info >p {
+    display: inline-block;
+    color: #fff;
+    padding: 8px 9px 0;
+    font-size: 12px;
+    
+}
+#info {
+    background-color: #000;
+    height: 32px;
+    
+}
+#info .p1{
+    margin-left: 95px;
+}
+#info .p2{
+    margin-left: 60px;
+}
+#info .p3{
+    margin-left: 490px;
+}
+
+#un {
+    height: 140px;
+    position: relative;
+    /* text-align: center; */
+    
+}
+#un > li {
+    display: inline-block;
+    
+    
+}
+#un li  a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.search{
+    font-size: 25px;
+    margin-left: 60px;
+}
+#un .logo{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 40px;
+    margin-top: 55px;
+    margin-left: 130px;
+}
+#un .gender {
+    font-size: 20px;
+    margin-left: 30px;
+}
+#un .btn-search {
+    top: 58px;
+    right: 610px;
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    width: 100px;
+    height: 33px;
+    padding: 6px 10px;
+}
+
+#un .unn{
+    font-size: 18px;
+    margin-left: 98px;
+}
+#Categories > li {
+    display: inline-block;
+    padding: 16px 32px ;
+    
+}
+#Categories {
+    text-align: center;
+    height: 50px;
+}
+
+#banner {
+    background-image: url(/themify-icons/image/Untitled.png);
+    height: 647px;
+    text-decoration: none;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* width: 100%; */
+}
+ #banner .title-1 {
+     font-size: 13px;
+     top: 103px;
+     left: 130px;
+     position: absolute;
+    
+     
+ }
+ #banner .title-2{
+    position: absolute;
+    top: 137px;
+    left: 130px;
+    Width:450px;
+    Height:73px;
+    font-size: 65px;
+    font-weight: bold;
+ }
+ #banner .title-3{
+    position: absolute;
+    top: 223px;
+    left: 230px;
+    font-weight: bold;
+    font-size: 65px;
+ }
+ #banner .btn-discover{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 32px;
+ }
+ #banner .btn {
+    position: absolute;
+    top: 384px;
+    left: 130px;
+    background-color: #000;
+    color: #fff;
+    height: 38px;
+    width: 120px;
+    line-height: 36px;
+ }
+ #banner .icon {
+     position: absolute;
+     text-decoration: none;
+     color: #000;
+     top: 390px;
+     left: 330px;
+     font-size: 24px;
+ }
+ #banner .under-line {
+     position: absolute;
+     left: 130px;
+     bottom: 69px;
+     color: #B3C4D7;
+     font-size: 20px;
+     /* font-weight: 900; */
+ }
+ #banner p i {
+     color: #fff;
+ }
+ #banner .name-product {
+     position: absolute;
+     width: 105px;
+     height: 36px;
+     right: 146px;
+     bottom: 87px;
+     font-weight: bold;
+     text-align: right;    
+ }
+ #banner .name-pdt {
+     color: #fff;
+ }
+
+#brands {
+    position: relative;
+    width: 100%;
+    height: 147px;
+}
+#brands > img {
+    margin-left: 100px;
+    margin-top: 42px;
+}
+#brands > p {
+    position: absolute;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+    top: 71px;
+    right: 60px;
+}
+
