@@ -9,6 +9,9 @@
 .col-2{
     width: 50%;
 }
+::placeholder {
+    font-size: 20px;
+}
 /* html{
     width: 100%;
 }
@@ -56,7 +59,7 @@ body {
 }
 .search{
     font-size: 25px;
-    margin-left: 60px;
+    margin-left: 135px;
 }
 #un .logo{
     width: 120px;
@@ -431,7 +434,7 @@ body {
     display: inline-block;
 }
 #discover-list {
-    height: 1500px;
+    height: 940px;
     background-color: #E5E5E5;
 }
 #discover-list .discover-list-r1 {
@@ -439,7 +442,8 @@ body {
 }
 #discover-list .discover-list-r1 .discover-item{
     position: relative;
-    /* background-color: #C5E5E9; */
+     background-color: #C5E5E9;
+    /* background-image: linear-gradient(0, rgba(0, 0, 3, 0), rgba(0,0,255,0.5) );  */
     width: 580px;
     height: 418px;
     display: inline-block;
@@ -477,10 +481,10 @@ body {
     padding: 9px 31px;
     left: 90px;
     bottom: 80px;
-}
-#discover-list .discover-list-r2 {
-    /* text-align: center; */
-}
+} 
+/* #discover-list .discover-list-r2 {
+ text-align: center; 
+} */
 #discover-list .discover-list-r2 .discover-item1,
 #discover-list .discover-list-r2 .discover-item2{
     width: 580px;
@@ -518,6 +522,124 @@ body {
     background-color: #000;
     position: absolute;
     padding: 9px 31px;
-    top: 210px;
-    right: -470px;
+    top: 350px;
+    right: -250px;
 }
+
+#subscribe {
+    height: 236px;
+    position: relative;
+}
+#subscribe .line-1{
+    position: absolute;
+    font-size: 20px;
+    left: 330px;
+    top: 86px;
+}
+#subscribe .line-2{
+    position: absolute;
+    font-size: 50px;
+    top: 110px;
+    left: 330px;
+    font-weight: bold;
+}
+#subscribe .taskbar{
+    width: 492px;
+    height: 38px;
+    position: absolute;
+    top: 99px;
+    left: 630px;
+}
+#subscribe .taskbar .input{
+    font-size: 29px;
+}
+#subscribe .taskbar .btn-subscribe{
+    width: 121px;
+    height: 38px; 
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    padding: 9px 31px;
+}
+
+#footer{
+    background-color: #000;
+    position: relative;
+    height: 500px;
+}
+#footer > p{
+    color: #fff;
+}
+#footer .cordes{
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 80px;
+    left: 130px;
+}
+#footer .about{
+    position: absolute;
+    font-size: 18px;
+    top: 190px;
+    left: 130px;
+}
+#footer .pr-1{
+    position: absolute;
+    font-size: 18px;
+    top: 246px;
+    left: 130px;
+    line-height: 32px;
+}
+#footer .pr-2{
+    position: absolute;
+    font-size: 18px;
+    top: 246px;
+    left: 280px;
+    line-height: 32px;
+}
+#footer .store{
+    position: absolute;
+    font-size: 18px;
+    top: 190px;
+    left: 580px;
+}
+#footer .pr-3{
+    position: absolute;
+    font-size: 18px;
+    top: 246px;
+    left: 580px;
+    line-height: 32px;
+}
+#footer .we-accept{
+    position: absolute;
+    font-size: 18px;
+    top: 190px;
+    left: 950px;
+}
+#footer .social-app{
+    position: absolute;
+    font-size: 18px;
+    top: 190px;
+    right: 233px;
+}
+#footer .pr-4{
+    position: absolute;
+    font-size: 18px;
+    top: 246px;
+    left: 950px;
+    line-height: 32px;
+}
+#footer .socials-list{
+    font-size: 18px;
+    position: absolute;
+    right: 200px;
+    top: 246px;
+
+}
+#footer .socials-list a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 4px;
+}
+
