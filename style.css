@@ -3,6 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+.col-4{
+    width: 25%;
+}
+.col-2{
+    width: 50%;
+}
 /* html{
     width: 100%;
 }
@@ -187,6 +193,331 @@ body {
     top: 71px;
     right: 60px;
 }
-#abc {
-    height: 100px;
+
+#fashion-trending {
+    height: 810px;
+    background-color: #FBFBFB;
+    position: relative;
+}
+#fashion-trending .title-ft {
+    height: 50px;
+    width: 400px;
+    font-size: 38px;
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    left: 130px;
+}
+#fashion-trending .hoodie {
+    position: absolute;
+    height: 504px;
+    width: 380px;
+    left: 130px;
+    top: 300px;
+}
+#fashion-trending .d-or {
+    position: absolute;
+    width: 484px;
+    height: 103px;
+    left: 445px;
+    top: 350px;
+}
+#fashion-trending .drive {
+    position: absolute;
+    width: 492px;
+    height: 103px;
+    left: 644px;
+    top: 475px;
+    z-index: 1;
+}
+#fashion-trending .hat {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background-color: #C5E5E9;
+    right: 130px;
+    top: 300px;
+}
+#fashion-trending .hat img {
+    padding-top: 61px;
+}
+#fashion-trending .shoes {
+    position: absolute;
+    width: 226px;
+    height: 295px;
+    background-color: #C7D1EB;
+    right: 230px;
+    top: 508px;
+}
+#fashion-trending .shoes img {
+    margin-top: 34px;
+    margin-left: -55px;
+}
+#fashion-trending .description{
+    position: absolute;
+    right: 598px;
+    top: 612px;
+}
+#fashion-trending .btn-buy-now {
+    position: absolute;
+    top: 764px;
+    right: 734px;
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 10px 32px;
+}
+
+#new-season {
+    height: 920px;
+    background-color: #FBFBFB;
+    position: relative;
+}
+#new-season .title-ns {
+    position: absolute;
+    width: 900px;
+    height: 50px;
+    font-size: 42px;
+    font-weight: bold;
+    top: 180px;
+    left: 130px;
+}
+#new-season .prod-1 {
+    position: absolute;
+    background-color: #BACBF9;
+    height: 436px;
+    width: 580px;
+    top: 320px;
+    left: 130px;
+}
+#new-season .detail {
+    position: absolute;
+    width: 532px;
+    height: 360px;
+    right: 238px;
+    top: 350px;
+}
+#new-season .detail img{
+    background-color: #FFB7B7;
+    width: 100%;
+    height: 100%;
+}
+#new-season .detail .brand,
+#new-season .detail .price{
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#new-season .detail .text{
+    padding: 10px 0;
+    background-color: #fff;
+    padding-left: 50px;
+}
+#new-season .detail .price{
+    margin-left: 123px;
+}
+#new-season .next-page{
+    position: absolute;
+    right: 130px;
+    top: 400px;
+}
+#new-season .next-page .btn-icon {
+    font-size: 52px;
+    margin-top: 35px;
+}
+#new-season .under-line{
+    position: absolute;
+    font-size: 20px;
+    top: 301px;
+    left: 724px;
+    color: #F1F1F1;
+}
+
+
+#discover {
+    background-image: url(/themify-icons/image/Untitled2.png);
+    height: 560px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#discover p {
+    margin-left: 130px;
+}
+#discover .d1{
+    height: 18px;
+    width: 110px;
+    padding-top: 100px;
+}
+#discover .d2{
+    height: 120px;
+    width: 360px;
+    font-size: 52px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#discover .d3{
+    height: 54px;
+    width: 280px;
+    font-size: 16px;
+    margin-top: 42px;
+}
+#discover .btn-discover{
+    width: 121px;
+    height: 38px; 
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 130px;
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    bottom: 100px;
+    font-size: 50px;
+    font-size: 15px;
+    padding: 10px 32px;
+} 
+
+#new-releases {
+    height: 1200px;
+    background-color: #E5E5E5;
+}
+#new-releases .releases-title {
+    font-size: 30px;
+    padding-top: 106px;
+    margin-left: 130px;
+    font-weight: bold;
+}
+#new-releases .product-list-all{
+    margin-top: 100px;
+}
+#new-releases .product-list-all .product-list{
+    text-align: center;
+    margin-top: 80px;
+}
+#new-releases .product-item {
+    height: 382px;
+    width: 280px;
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#new-releases .product-item img{
+    background-color: #F1F1F1;
+    width: 100%;
+}
+#new-releases .product-item .icon{
+    position: absolute;
+    top: 5px;
+    right: 7px;
+}
+#new-releases .product-item .product-body{
+    background-color: #fff;
+    height: 97px;
+    width: 280px;
+}
+#new-releases .product-item .product-body .product-name{
+    text-align: center;
+    padding-top: 20px;
+}
+#new-releases .product-item .product-body .product-price{
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top: 20px;
+    display: inline-block;
+}
+#new-releases .product-item .product-body .product-amount-sold{
+    margin-left: 133px;
+    display: inline-block;
+}
+#discover-list {
+    height: 1500px;
+    background-color: #E5E5E5;
+}
+#discover-list .discover-list-r1 {
+    text-align: center;
+}
+#discover-list .discover-list-r1 .discover-item{
+    position: relative;
+    /* background-color: #C5E5E9; */
+    width: 580px;
+    height: 418px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#discover-list .discover-list-r1 .discover-item .l1{
+    position: absolute;
+    left: 90px;
+    font-size: 20px;
+    top: 90px;
+    color: #fff;
+}
+#discover-list .discover-list-r1 .discover-item .l2{
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 120px;
+    left: 90px;
+}
+#discover-list .discover-list-r1 .discover-item .l3{
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 176px;
+    left: 192px;
+}
+#discover-list .discover-list-r1 .discover-item .btn-click{
+    width: 121px;
+    height: 38px; 
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    position: absolute;
+    padding: 9px 31px;
+    left: 90px;
+    bottom: 80px;
+}
+#discover-list .discover-list-r2 {
+    /* text-align: center; */
+}
+#discover-list .discover-list-r2 .discover-item1,
+#discover-list .discover-list-r2 .discover-item2{
+    width: 580px;
+    height: 418px;
+    display: inline-block;
+    margin-left: 251px;
+    margin-top: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+#discover-list .discover-list-r2 .discover-item1 i{
+    position: absolute;
+    font-size: 65px;
+    top: 189px;
+    left: 266px;
+}
+#discover-list .discover-list-r2 .discover-item1 .p1{
+    position: absolute;
+    top: 30px;
+    right: -462px;
+    font-size: 53px;
+    font-weight: bold;
+}
+#discover-list .discover-list-r2 .discover-item1 .p2{
+    position: absolute;
+    top: 181px;
+    right: -470px;
+    font-size: 15px;
+}
+#discover-list .discover-list-r2 .discover-item1 .btn-click{
+    width: 121px;
+    height: 38px; 
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    padding: 9px 31px;
+    top: 210px;
+    right: -470px;
 }
