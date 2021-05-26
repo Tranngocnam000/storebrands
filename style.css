@@ -10,8 +10,9 @@
     width: 50%;
 }
 ::placeholder {
-    font-size: 20px;
+    font-size: 15px;
     opacity: 0.7;
+    margin-bottom: 20px;
 }
 /* html{
     width: 100%;
@@ -92,14 +93,22 @@ body {
     font-size: 18px;
     margin-left: 98px;
 }
-#Categories > li {
-    display: inline-block;
-    padding: 16px 32px ;
-    
+#header .line-ver {
+    color: #ddd;
+    font-size: 30px;
+    margin-left: 210px;
+    margin-bottom: 18px;
+    margin-top: -30px;
 }
 #Categories {
     text-align: center;
-    height: 50px;
+    height: 45px;
+    
+}
+#Categories > li {
+    display: inline-block;
+    padding: 0px 40px ;
+    border-left: 2px solid #ddd;   
 }
 
 #banner {
@@ -188,7 +197,7 @@ body {
     height: 147px;
 }
 #brands > img {
-    margin-left: 100px;
+    margin-left: 110px;
     margin-top: 42px;
 }
 #brands > p {
@@ -197,7 +206,7 @@ body {
     font-size: 19px;
     font-weight: bold;
     top: 71px;
-    right: 60px;
+    right: 95px;
 }
 
 #fashion-trending {
